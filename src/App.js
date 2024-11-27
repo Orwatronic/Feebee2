@@ -20,7 +20,7 @@ import FAQ from './pages/FAQ';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Feebee2">
       <AppWrapper>
         <Header />
         <MainContent>
