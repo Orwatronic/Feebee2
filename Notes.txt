@@ -1,0 +1,137 @@
+Key aspects of this structure:
+Frontend Organization:
+components/: Reusable UI components
+pages/: Main page components
+layouts/: Page layout templates
+hooks/: Custom React hooks
+context/: React context providers
+services/: API integration and other services
+styles/: Global styles and variables
+Asset Management:
+public/assets/: Static assets like images and icons
+Organized subfolders for different types of media
+CMS Integration:
+cms/: Backend CMS structure
+Separate models, controllers, and routes
+Configuration:
+config/: Environment-specific configurations
+To get started, you would need to:
+    1. Set up the backend CMS according to the structure in the cms/ folder.
+    2. Configure the frontend to connect with the backend using the appropriate services and API endpoints.
+    3. Adjust the routing and navigation to match the structure of your CMS.
+    4. Implement the necessary hooks and context providers to manage global state and data fetching.
+    5. Style the application using the provided CSS variables and styles.
+    6. Open terminal and run the following commands:
+        - npm install (to install dependencies)
+        - npm run dev (to start development server)
+        - npm run build (to create production build)
+        - npm start (to run production server)
+
+
+
+
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1314 packages in 48s
+
+259 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 46 packages, and changed 1 package in 7s
+
+263 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1360 packages in 3s
+
+263 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created website-project at C:\Fra_Asus_til_MSI\VS-Code\website-project\website-project
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!       
+
+We suggest that you begin by typing:
+
+  cd website-project
+  npm start
+
+Happy hacking!
+
+
+Would you like me to show you how to update your existing components to use these global styles?
+
+
+Create remaining main pages:
+About.jsx
+Work.jsx (Portfolio)
+Blog.jsx
+Contact.jsx
+FAQ.jsx
+Add Interactive Features:
+Contact form with validation
+Service request forms
+Blog post system
+Portfolio gallery
+
+
+Key features of this implementation:
+Initially shows only the service title
+On hover:
+Card slightly lifts up
+Background color changes
+Reveals subtitle and description
+Shows a "Learn More" link
+Smooth transitions for all hover effects
+Centered content both before and after hover
+5. Responsive grid layout
+The hover effect works by:
+Having two layers: InitialContent and HoverContent
+InitialContent shows the title
+HoverContent contains the detailed information
+Using opacity and transform for smooth transitions
+Would you like me to:
+Adjust the animation timing?
+Modify the hover effect style?
+Change the layout or spacing?
+Add different hover animations?
+
+
+
+The development workflow is:
+Make changes to files
+Test with npm start
+Repeat steps 1-2 until you're happy with the results
+Create production build with npm run build
+Serve production build with serve -s build
+Would you like to test the changes in development mode first?
